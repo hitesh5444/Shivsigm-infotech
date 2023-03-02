@@ -1,0 +1,61 @@
+@media only screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    background-size: 48px;
+    height: 50px;
+    width: 50px;
+    margin-top: 0rem;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .menu-icon img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .continer {
+    height: 50vh;
+    background-size: auto;
+  }
+
+  
+.continer span {
+  width: 50px;
+  height: 5px;
+  margin-right: 18rem;
+}
+
+  .text {
+    font-size: 20px;
+    margin-right: 6rem;
+  }
+
+  .dis {
+    font-size: 10px;
+    margin-right: 6.5rem;
+    width: 200px;
+  }
+
+  .t-continer {
+    height: 2vh;
+  }
+
+  .t-continer p {
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: -111px;
+    margin-left: 5px;
+  }
+
+  .tit {
+    font-size: 10px;
+    margin-left: 11px;
+    margin-top: -126px;
+  }
+}

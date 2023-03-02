@@ -1,0 +1,127 @@
+#pre-loader {
+  background: lightslategray;
+  background-size: 30%;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  gap: 50px;
+}
+
+.loader-logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 10%;
+  right: 50px;
+  filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.527));
+}
+
+.fd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10rem;
+}
+
+#pre-loader h1 {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 500;
+  filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.712));
+}
+
+.loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+}
+
+.loader span {
+  width: 30px;
+  height: 30px;
+  margin-left: 8px;
+  border-radius: 50%;
+  animation: loader 2.5s linear infinite;
+  -webkit-animation: loader 2.5s linear infinite;
+}
+
+.loader span:nth-child(1) {
+  background: lightgreen;
+  animation-delay: 0s;
+}
+
+.loader span:nth-child(2) {
+  background: lightblue;
+  animation-delay: 0.25s;
+}
+
+.loader span:nth-child(3) {
+  background: lightgoldenrodyellow;
+  animation-delay: 0.5s;
+}
+
+.loader span:nth-child(4) {
+  background: lightcoral;
+  animation-delay: 0.75s;
+}
+
+.loader span:nth-child(5) {
+  background: lemonchiffon;
+  animation-delay: 1s;
+}
+
+.loader span:nth-child(6) {
+  background: lightgray;
+  animation-delay: 1.25s;
+}
+
+.loader span:nth-child(7) {
+  background: lightseagreen;
+  animation-delay: 1.5s;
+}
+
+.loader span:nth-child(8) {
+  background: lightpink;
+  animation-delay: 1.75s;
+}
+
+@keyframes loader {
+  0%,
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .loader-logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  #pre-loader h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}

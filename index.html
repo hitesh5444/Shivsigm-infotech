@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/logo.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/media-query.css" />
+    <link rel="stylesheet" href="./assets/pre-loader.css" />
+    <title>Home Page - Shivsigma Infotech</title>
+  </head>
+  <body>
+    <div id="pre-loader">
+      <div class="fd">
+        <img class="loader-logo" src="./assets/img/qt=q_95.png" alt="" />
+        <h1>Shivsigma Infotech</h1>
+      </div>
+      <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <main>
+      <section>
+        <nav class="navbar">
+          <div class="logo-container">
+            <span class="logo"></span>
+            <h1 class="logo-title">Shivsigma Infotech</h1>
+            <div class="menu">
+              <a href="" target="_blank">Home</a>
+              <a href="https://github.com/hitesh5444" target="_blank">Github</a>
+              <a href="./software.html">Software Training</a>
+              <a href="" target="_blank">About us</a>
+              <button>
+                <a href="mailto:hitesh.official.955@gmail.com">Start Project</a>
+              </button>
+            </div>
+            <div class="menu-icon">
+              <img
+                src="./assets/img/menu.png"
+                id="add"
+                alt=""
+                onclick="dropdown()"
+              />
+              <ul class="dropdown" id="drop">
+                <li><a href="" target="_blank">Home</a></li>
+                <li>
+                  <a href="https://github.com/hitesh5444" target="_blank"
+                    >Github</a
+                  >
+                </li>
+                <li><a href="./software.html">Software Training</a></li>
+                <li><a href="" target="_blank">About Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="continer">
+          <span></span>
+          <h1 class="text">
+            STILL, YOU WANT TO GO
+            <div>BEYONG?</div>
+          </h1>
+
+          <p class="dis">
+            A Project with the most advanced bespoke software solutions
+            provider. <br />
+            your idea becomes a reality.
+          </p>
+        </div>
+        <span class="tit">OUR EXPERT SERVICES</span>
+        <div class="t-continer">
+          <p>
+            Our customers are at the heart of our organization. Our services
+            include Web application development, Mobile application development,
+            UI/UX, Branding, Digital Marketing, <br />
+            Search Engine Optimization (SEO), Social Media Marketing (SMM), IOT,
+            Kiosk application development and Hardware integration.
+          </p>
+        </div>
+        <span class="tit right" data-aos="zoom-in-down">Service’s</span>
+        <div class="SERVICES" data-aos="fade-right">
+          <div class="fir">
+            <div class="card-continer" data-aos="zoom-in">
+              <div>
+                <img
+                  class="card-tit"
+                  src="./assets/img/web development.webp"
+                  alt="web development"
+                  onclick="popup()"
+                />
+
+                <div class="pop" id="pop" data-aos="zoom-out">
+                  <h1>this is popup box</h1>
+                </div>
+              </div>
+              <div class="card-dis">
+                <h1>Web - Development</h1>
+              </div>
+            </div>
+            <div class="card-continer" data-aos="zoom-in">
+              <div>
+                <img
+                  class="card-tit"
+                  src="./assets/img/mobile development.webp"
+                  alt="web development"
+                />
+              </div>
+              <div class="card-dis">
+                <h1>Mobile - Development</h1>
+              </div>
+            </div>
+            <div class="card-continer" data-aos="zoom-in">
+              <div>
+                <img
+                  class="card-tit"
+                  src="./assets/img/kiosk.webp"
+                  alt="web development"
+                />
+              </div>
+              <div class="card-dis">
+                <h1>Kiosk</h1>
+              </div>
+            </div>
+          </div>
+          <div class="tow">
+            <div class="card-continer" data-aos="zoom-in">
+              <div>
+                <img
+                  class="card-tit"
+                  src="./assets/img/crm & ecommerc.webp"
+                  alt="web development"
+                />
+              </div>
+              <div class="card-dis">
+                <h1>CRM & Ecommerce</h1>
+              </div>
+            </div>
+            <div class="card-continer" data-aos="zoom-in">
+              <div>
+                <img
+                  class="card-tit"
+                  src="./assets/img/software development.webp"
+                  alt="web development"
+                />
+              </div>
+              <div class="card-dis">
+                <h1>Software - Development</h1>
+              </div>
+            </div>
+            <div class="card-continer" data-aos="zoom-in">
+              <div>
+                <img
+                  class="card-tit"
+                  src="./assets/img/software testing.webp"
+                  alt="web development"
+                />
+              </div>
+              <div class="card-dis">
+                <h1>Software - Testing</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript">
+      AOS.init({
+        offset: 200,
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>
